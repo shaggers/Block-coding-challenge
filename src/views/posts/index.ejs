@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ../static/partials/head.ejs %>
+  </head>
+  <body>
+    <main class="container">
+      <% include ../static/partials/navbar.ejs %>
+
+      <h1>Posts</h1>
+
+      <a href="/posts/new" class="btn btn-success">Create Post</a>
+
+      <ul class="list-group" style="margin-top: 50px;">
+        <% posts.forEach((post) => { %>
+          <li class="list-group-item">
+            <a href="/posts/<%= post.id %>"> <%= post.title %> </a>
+            <p><%= post.description %></p>
+          </li>
+        <% }) %>
+      </ul>
+
+    </main>
+  </body>
+</html>

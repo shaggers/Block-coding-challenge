@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "cameronsmac",
+    "password": null,
+    "database": "blocChanllenge-dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "cameronsmac",
+    "password": null,
+    "database": "blocChanllenge-test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
