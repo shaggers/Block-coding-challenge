@@ -1,0 +1,29 @@
+{
+  "name": "bloccodechallenge",
+  "version": "1.0.0",
+  "description": "Create an application in which a user can post to a wall and read other comments posted on the wall",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && jasmine",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaggers/Block-coding-challenge.git"
+  },
+  "author": "cameron lenartowich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaggers/Block-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/shaggers/Block-coding-challenge#readme",
+  "devDependencies": {
+    "jasmine": "^3.4.0",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11"
+  }
+}
