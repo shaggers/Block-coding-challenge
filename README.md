@@ -13,5 +13,4 @@ or
 npm test spec/filepath
 
 ###### Use the application 
-You can use this application first by signing up a user. You can then post on a wall while associating
-your username with your posts. You can create multiple accounts to allow users to talk back and forth.
+You can use this application by navigating to the posts page where you and other users can create posts. You can also edit and delete posts when you click on one.
